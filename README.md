@@ -4,7 +4,7 @@
 
 ---
 
-## ⚙️ Lógica da Solução
+### ⚙️ Lógica da Solução
 A solução baseia-se na integração contínua de dados abertos para apoio à decisão no campo.
 
 ### [1. Diagnóstico por Foto]
