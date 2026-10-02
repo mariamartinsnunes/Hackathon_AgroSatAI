@@ -25,17 +25,24 @@ A solução baseia-se na integração contínua de dados abertos para apoio à d
 
 ### ⚖️ Conformidade Ética, LGPD e Limites da IA
 **Privacidade (LGPD)**: A localização exata das propriedades e os dados dos produtores são protegidos.
+
 **Transparência e Inteligência Explicável**: Todas as análises preditivas e diagnósticos gerados por visão computacional apresentam sei respectivo grau de incerteza/confiança.
+
 **Restrição Legal e Não Prescrição**: O sistema não realiza receituário agronómico, não prescreve dosagens e não incentiva a compra direta de insumos químicos.
+
 **Isenção de Responsabilidade**: A plataforma atua como uma ferramenta de auxílio e não substitui a avaliação e o parecer de um Engenheiro Agrónomo.
 
 ---
 
 ### 🛠️ Tecnologias Utilizadas
 **Linguagem:**
+
 **Interface:**
+
 **Processamento Geoespacial e Mapas:**
+
 **Machine Learning e Visão Computacional:**
+
 **Análise de Dados:**
 
 
