@@ -42,21 +42,21 @@ A solução baseia-se na integração contínua de dados abertos para apoio à d
 
 ## 🛠️ Tecnologias Utilizadas
 
-**Front-end PWA:** HTML5, CSS3 e JavaScript puro (vanilla, sem frameworks) configurado como PWA funcional offline via `manifest.json` e Service Worker.
+**[Front-end PWA]** HTML5, CSS3 e JavaScript puro (vanilla, sem frameworks) configurado como PWA funcional offline via `manifest.json` e Service Worker.
 
-**Acessibilidade e voz:** Interface acessível com tipografia **Atkinson Hyperlegible** e recursos nativos de leitura/comando por voz em português (`pt-BR`) via **Web Speech API**.
+**[Acessibilidade e voz]** Interface acessível com tipografia **Atkinson Hyperlegible** e recursos nativos de leitura/comando por voz em português (`pt-BR`) via **Web Speech API**.
 
-**Backend Serverless:** Funções na pasta `/api` atuando como proxies leves para consumo e repasse otimizado de dados meteorológicos e focos de calor, com validação de borda (respostas `400` e `422`) e middleware CORS.
+**[Backend Serverless]** Funções na pasta `/api` atuando como proxies leves para consumo e repasse otimizado de dados meteorológicos e focos de calor, com validação de borda (respostas `400` e `422`) e middleware CORS.
 
-**Microsserviço de IA:** API em **FastAPI 0.110** (Uvicorn) rodando **Python 3.11.9**, **TensorFlow-CPU 2.18**, **Keras 3.15.1**, Pillow e NumPy.
+**[Microsserviço de IA]** API em **FastAPI 0.110** (Uvicorn) rodando **Python 3.11.9**, **TensorFlow-CPU 2.18**, **Keras 3.15.1**, Pillow e NumPy.
 
-**Modelo de Visão Computacional:** *Transfer learning* sobre **MobileNetV2** (extrator congelado) com cabeçote customizado (GAP, Dropout e Softmax). O pré-processamento é embutido diretamente no modelo para evitar divergências entre treino e inferência.
+**[Modelo de Visão Computacional]** *Transfer learning* sobre **MobileNetV2** (extrator congelado) com cabeçote customizado (GAP, Dropout e Softmax). O pré-processamento é embutido diretamente no modelo para evitar divergências entre treino e inferência.
 
-**IA na Borda / Navegador:** Suporte a inferência local e prototipagem via modo mock / **Teachable Machine** direto no browser.
+**[IA na Borda / Navegador]** Suporte a inferência local e prototipagem via modo mock / **Teachable Machine** direto no browser.
 
-**Dados Abertos (Open Data):** Integração com **Open-Meteo** (clima), **Sentinel-2** via Planetary Computer (NDVI), relatórios de focos de calor em CSV, e bases do **ZARC** e **Agrofit** tratadas via scripts Python automatizados.
+**[Dados Abertos (Open Data)]** Integração com **Open-Meteo** (clima), **Sentinel-2** via Planetary Computer (NDVI), relatórios de focos de calor em CSV, e bases do **ZARC** e **Agrofit** tratadas via scripts Python automatizados.
 
-**DevOps, Docs & Deploy:** Documentação automática interativa por OpenAPI/Swagger (`/docs`), versionamento via Git/GitHub e deploy em nuvem na plataforma **Render** com variáveis de ambiente (`PORT`, `PYTHON_VERSION`) e dependências fixadas.
+**[DevOps, Docs & Deploy]** Documentação automática interativa por OpenAPI/Swagger (`/docs`), versionamento via Git/GitHub e deploy em nuvem na plataforma **Render** com variáveis de ambiente (`PORT`, `PYTHON_VERSION`) e dependências fixadas.
 
 ---
 
